@@ -1,5 +1,6 @@
 <h2>My Heroes</h2>
 
+
 <ul class="heroes">
   <li *ngFor="let hero of heroes">
     <button [class.selected]="hero === selectedHero" type="button" (click)="onSelect(hero)">
