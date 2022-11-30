@@ -1,6 +1,12 @@
 <h2>My Heroes</h2>
 
 <div>
+the-hero-editor
+  
+  <label for="name">Hero name: </label>
+  <input id="name" [(ngModel)]="hero.name" placeholder="name">
+</div>
+
   <label for="new-hero">Hero name: </label>
   <input id="new-hero" #heroName />
 
@@ -19,3 +25,4 @@
       (click)="delete(hero)">x</button>
   </li>
 </ul>
+develop
